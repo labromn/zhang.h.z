@@ -1,0 +1,15 @@
+"""a = input("please enter your first name: ")
+if len(a) < 5:
+    surname = input("please enter your surname: ")
+    full_name = a + surname
+    print(full_name.upper)
+else:
+    print(a.lower())
+    """
+word = input("Enter a word: ")
+vowels = "aeiou"
+if word[0].lower() in vowels:
+    pig_latin = word + "way"
+else:
+    pig_latin = word[0:] +"ay"
+    print("pig latin: ", pig_latin)
